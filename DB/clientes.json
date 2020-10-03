@@ -1,0 +1,8 @@
+{"_id":{"$oid":"5f6b69d35fe5961ac8ca7199"},"nombre":"Steve","apellido":"Quiroga","empresa":"HotelCall","email":"correo2@correo.com","telefono":"77745745","__v":0}
+{"_id":{"$oid":"5f6b6a0a5fe5961ac8ca719a"},"nombre":"Beto","apellido":"Ramirez","empresa":"TIGO","email":"correo6@correo.com","telefono":"7945766","__v":0}
+{"_id":{"$oid":"5f6e374f563853353841cca5"},"nombre":"John","apellido":"Gutierrez","empresa":"AirBNB","email":"correo1@gmail.com","telefono":"77702563","__v":0}
+{"_id":{"$oid":"5f6e48bb69ac8a2cd416494f"},"nombre":"Mario","apellido":"Mercado","empresa":"Arduino","email":"arduino@gmail.com","telefono":"79682882","__v":0}
+{"_id":{"$oid":"5f6e74ea39b8d520748baa12"},"nombre":"Marlene","apellido":"Fernandez","empresa":"ENTEL","email":"marlene@entel.bo","telefono":"78945615","__v":0}
+{"_id":{"$oid":"5f6f67bcfba224333467fd0d"},"nombre":"Martin","apellido":"Poma","empresa":"NIKE","email":"poma@nike.com","telefono":"789456123","__v":0}
+{"_id":{"$oid":"5f72264a50b3932b00010373"},"nombre":"Beto","apellido":"Cuevas","empresa":"Adidas","email":"beto@adidas.com","telefono":"7894562","__v":0}
+{"_id":{"$oid":"5f77a3d749c6bf304cdb3d30"},"nombre":"Ronaldo","apellido":"Santander","empresa":"Movil","email":"santander@gmail.com","telefono":"6987452","__v":0}
