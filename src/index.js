@@ -10,6 +10,10 @@ const cors = require('cors');
 // Creamos el servidor
 const app = express();
 
+// Carpeta publica
+// app.use("/",express.static('uploads'));
+app.use(express.static(__dirname + '/uploads'));
+
 // Conectamos la base de datos
 db();
 
@@ -17,16 +21,12 @@ db();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
-// Carpeta publica
-// app.use("/",express.static('uploads'));
-app.use(express.static(__dirname + '/uploads'));
 
 // Definir un dominio(s) para recibir las peticiones
 const whitelist = [process.env.FRONTEND_URL];
 const corsOptions = {
   origin: (origin, callback) => {
     // Revisar si la peticion viene de un servidor ques esta en whitelist
-
     const existe = whitelist.some(dominio => dominio === origin);
 
     if(existe) {

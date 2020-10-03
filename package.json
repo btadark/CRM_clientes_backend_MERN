@@ -1,5 +1,5 @@
 {
-  "name": "RESTAPI",
+  "name": "restapi",
   "version": "1.0.0",
   "description": "Creando REST API",
   "main": "index.js",
